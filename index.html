@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>provedor de internet</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header class="navbar navbar-expand-lg sticky-top p-4 borda" id="planos">
+      <div class="container">
+        <h1 class="navbar-brand m-0 section-title text-colored">NOME-PROVEDOR</h1>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu-navegacao"
+        >
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+        <nav
+          class="navbar-collapse collapse justify-content-end"
+          id="menu-navegacao"
+        >
+          <ul class="nav nav-pills d-block d-md-flex">
+            <li class="nav-item fw-bold">
+              <a class="nav-link" href="#sobre-o-provedor">
+                <i class="bi bi-house-door me-1"></i>
+                SOBRE O PROVEDOR
+              </a>
+            </li>
+
+            <li class="nav-item fw-bold">
+              <a class="nav-link" href="#eventos">
+                <i class="bi bi-check-circle"></i>
+                O MELHOR PARA
+              </a>
+            </li>
+
+            <li class="nav-item fw-bold">
+              <a class="nav-link" href="#planos">
+                <i class="bi bi-card-text me-1"></i>
+                PLANOS
+              </a>
+            </li>
+
+            <li class="nav-item fw-bold">
+              <a class="nav-link" href="#fale-conosco">
+                <i class="bi bi-chat-left-text me-1"></i>
+                FALE CONNOSCO
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!--configuracao do carousel-->
+    <div data-bs-spy="scroll" data-bs-target="cabecalho " data-bs-smooth-scroll="true">
+      <section id="sobre-o-provedor">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+          <div class="carousel-inner">
+            <!--itens do carousel-->
+            <div class="carousel-item active" data-bs-interval="2000">
+              <img src="/images/slides/slide1.png" alt="SLIDE" />
+            </div>
+
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="/images/slides/slide2.png" alt="SLIDE" />
+            </div>
+
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="/images/slides/slide4.png" alt="SLIDE" />
+            </div>
+
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="/images/slides/slide3.png"
+                alt="SLIDE"
+              />
+            </div>
+          </div>
+
+          <!--setas do carousel-->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="2"
+            ></button>
+
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="3"
+            ></button>
+          </div>
+        </div>
+
+        <!--sobre o restaurante-->
+        <div class="pt-5 mb-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5">
+                <img
+                  src="/images/provedor.webp"
+                  class="d-block w-100 rounded"
+                  alt="restaurante"
+                />
+              </div>
+              <div class="col-md-7 mt-3  mt-md-0">
+                <h2 class="section-title">
+                   <span class="text-colored">Sobre o Provedor</span>
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Repellat odio consequuntur m agnam adipisci sed sequi, maxime
+                  suscipit laboriosam in laborum voluptatum iure fugiat. Ad,
+                  consectetur? Necessitatibus illum rem culpa ex.
+                </p>
+                <h3 class="section-title">
+                   <span class="text-colored"> Sobre o Espaço</span>
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                  laborum error consectetur doloremque officiis culpa, quo
+                  delectus soluta veniam possimus c um distinctio voluptate
+                  perferendis laboriosam vel obcaecati ea ut cumque!
+                </p>
+                <ul class="text-colored">
+                  <li>Hambiente bem Localizado</li>
+                  <li>hambiente bem Climatizado</li>
+                  <li>hambiente Agradavel </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="eventos" class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title text-center">
+               <span class="text-colored "> CONEXAO PARA TODOS OS MOMENTOS</span>
+            </h2>
+          </div>
+          <div class="row mt-5">
+            <div class="col-md-4">
+              <img
+                src="./images/eventos/maratonar.jpg"
+                alt="fazendo live"
+                class="d-block w-100 rounded mb-2"
+              />
+              <h3 class="section-title text-colored fs-4 mt-3">
+                <i class="bi bi-broadcast"></i>
+                Fazer Lives
+              </h3>
+              <p class="mt-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Recusandae veniam magni rem deleniti modi cum quisquam dolores
+                labore laborum veritatis commodi illo, laudantium, eaque dolorem
+                excepturi quod illum nobis quas!
+              </p>
+            </div>
+
+            <div class="col-md-4">
+              <img
+                src="./images/eventos/2015-09-30-destiny-331.webp"
+                alt="jogando ps5"
+                class="d-block w-100  rounded mb-2"
+              />
+              <h3 class="section-title text-colored text-colored fs-4 mt-3">
+                <i class="bi bi-controller"></i>
+                Para Jogar Online
+              </h3>
+              <p class="mt-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Recusandae veniam magni rem deleniti modi cum quisquam dolores
+                labore laborum veritatis commodi illo, laudantium, eaque dolorem
+                excepturi quod illum nobis quas!
+              </p>
+            </div>
+
+            <div class="col-md-4">
+              <img
+                src="./images/eventos/maratonar.jpg"
+                alt="maratonar series e filmes"
+                class="d-block w-100 rounded mb-2"
+              />
+              <h3 class="section-title text-colored fs-4 mt-3">
+                <i class="bi bi-film"></i>
+                Para Maratonar Series e Filmes
+              </h3>
+              <p class="mt-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Recusandae veniam magni rem deleniti modi cum quisquam dolores
+                labore laborum veritatis commodi illo, laudantium, eaque dolorem
+                excepturi quod illum nobis quas!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--menu planos-->
+      <section id="planos" class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title text-center mb-5">
+               <span class="text-colored">NOSSOS PLANOS</span>
+            </h2>
+          </div>
+          <div class="row ">
+            <aside class="col-md-2">
+              <nav class="nav nav-pills flex-column nav-planos text-center">
+                <button type="button" class="fw-bold text-start nav-link text-colored " data-bs-toggle="tab" data-bs-target="#plano-combo">PLANOS + COMBO</button>
+                <button type="button" class="fw-bold text-start nav-link text-colored " data-bs-toggle="tab" data-bs-target="#planos-simples">PLANOS SIMPLES</button>
+                <button type="button" class="fw-bold text-start nav-link text-colored " data-bs-toggle="tab" data-bs-target="#planos-empresas">PLANOS EMPRESARIAIS</button>
+                <button type="button" class="fw-bold text-start nav-link text-colored " data-bs-toggle="tab" data-bs-target="#via-satelite">PLANOS VIA SATELITE</button>
+              </nav>
+            </aside>
+            <!--meu meus-planos-->
+            <div class="col-md-10">
+              <div class="tab-content">
+                <div class="tab-pane active" id="plano-combo">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <img class="d-block w-100 mt-1 rounded" src="/images/meus-planos/planos/mb.png" alt="100mb mais combo">
+                            <h5 class="text-colored fw-bold mt-3">100MB + HNTV(90 canais)</h5>
+                            <h4 class="text-colored fw-bold mt-2">Apenas: R$ 69.90</h4>
+                            <p>****imagens meramente inlustrativas****</p>
+                            <button class="btn btn-primary w-100">Contrate Já</button>
+                        </div>
+
+                        <div class="col-md-4 mt-2">
+                          <img class="d-block w-100 rounded" src="/images/meus-planos/planos/300mb.png" alt="300mb">
+                          <h5 class="text-colored fw-bold mt-2">300MB + HNTV(120 canais)</h5>
+                          <h4 class="text-colored fw-bold mt-2">Apenas: R$ 79.90</h4>
+                          <p>****imagens meramente inlustrativas****</p>
+                          <button class="btn btn-primary w-100">Contrate Já</button>
+                      </div>
+
+                      <div class="col-md-4">
+                        <img class="d-block w-100 mt-1 rounded" src="/images/meus-planos/planos/500mb.png" alt="500mb">
+                        <h5 class="text-colored fw-bold mt-1">500MB + HNTV(150 canais)</h5>
+                        <h4 class="text-colored fw-bold mt-2">Apenas: R$ 89.90</h4>
+                        <p>****imagens meramente inlustrativas****</p>
+                        <button class="btn btn-primary w-100">Contrate Já</button>
+                    </div>
+
+
+
+                </div>
+              </div>
+              <div class="tab-pane " id="planos-simples">
+                <div class="row">
+                  <div class="col-md-4 mt-2">
+                    <img class="d-block w-100 rounded" src="/images/meus-planos/planos-simples/100mb.png" alt="100mb">
+                    <h5 class="text-colored fw-bold mt-3">100MB</h5>
+                    <h4 class="text-colored fw-bold mt-2">por apenas: R$ 50,00</h4>
+                    <p>****imagens meramente inlustrativas****</p>
+                    <button class="btn btn-primary w-100">Contrate Já</button>
+                  </div>
+                  <div class="col-md-4 mt-2">
+                    <img class="d-block w-100 rounded" src="/images/meus-planos/planos-simples/400mb.png" alt="400mb">
+                    <h5 class="text-colored fw-bold mt-2">400MB</h5>
+                    <h4 class="text-colored fw-bold mt-2">por apenas: R$ 70,00</h4>
+                    <p>****imagens meramente inlustrativas****</p>
+                    <button class="btn btn-primary w-100">Contrate Já</button>
+                  </div>
+
+                  <div class="col-md-4 mt-2">
+                    <img class="d-block w-100 rounded" src="/images/meus-planos/planos-simples/500mb.png" alt="500mb">
+                    <h5 class="text-colored fw-bold mt-3">400MB</h5>
+                    <h4 class="text-colored fw-bold mt-2">por apenas: R$ 100,00</h4>
+                    <p>****imagens meramente inlustrativas****</p>
+                    <button class="btn btn-primary w-100">Contrate Já</button>
+                  </div>
+                  
+              </div>
+
+              
+            </div>
+            <div class="tab-pane " id="planos-empresas">
+              <div class="row">
+                <div class="col-md-4">
+                  <img class="d-block w-100 rounded" src="/images/meus-planos/empresa/300mb.jpg" alt="300mb">
+                  <h5 class="text-colored fw-bold mt-4">300MB</h5>
+                  <h4 class="text-colored fw-bold mt-4">por apenas R$ 92,70</h4>
+                  <p class="mt-4">****imagens meramente inlustrativas****</p>
+                  <button class="btn btn-primary w-100">Contrate Já</button>
+                </div>
+
+                <div class="col-md-4">
+                  <img class="d-block w-100 mt-3 rounded" src="/images/meus-planos/empresa/500mb.jpg" alt="50mb">
+                  <h5 class="text-colored fw-bold mt-4">500MB</h5>
+                  <h4 class="text-colored fw-bold mt-4">por apenas R$ 107,50</h4>
+                  <p class="mt-4">****imagens meramente inlustrativas****</p>
+                  <button class="btn btn-primary w-100">Contrate Já</button>
+                </div>
+
+                <div class="col-md-4">
+                  <img class="d-block w-100 rounded" src="/images/meus-planos/empresa/1-giga.jpg" alt="1gb">
+                  <h5 class="text-colored fw-bold mt-4">1GIGA</h5>
+                  <h4 class="text-colored fw-bold mt-4">por apenas R$ 151,90</h4>
+                  <p class="mt-4">****imagens meramente inlustrativas****</p>
+                  <button class="btn btn-primary w-100">Contrate Já</button>
+                </div>
+
+                
+              
+            </div>
+            </div>
+            <div class="tab-pane" id="via-satelite">
+              <div class="row">
+                <div class="col-md-4">
+                  <img class="d-block w-100 mt-2 rounded" src="/images/meus-planos/via-satelite/35mb.jpg" alt="35mb">
+                  <h5 class="text-colored fw-bold mt-3">35 MEGAS</h5>
+                  <h4 class="text-colored fw-bold mt-4">por apenas R$ 79,90</h4>
+                  <p class="mt-3">****imagens meramente inlustrativas****</p>
+                  <button class="btn btn-primary w-100">Contrate Já</button>
+                </div>
+                <div class="col-md-4 mt-2">
+                  <img class="d-block w-100 rounded" src="/images/meus-planos/via-satelite/70mb.jpg" alt="70mb">
+                  <h5 class="text-colored fw-bold mt-3">70 MEGAS</h5>
+                  <h4 class="text-colored fw-bold mt-4">por apenas R$ 89,90</h4>
+                  <p class="mt-3">****imagens meramente inlustrativas****</p>
+                  <button class="btn btn-primary w-100">Contrate Já</button>
+                </div>
+                <div class="col-md-4">
+                  <img class="d-block w-100 mt-2 rounded" src="/images/meus-planos/via-satelite/100mb.jpg" alt="100mb">
+                  <h5 class="text-colored fw-bold mt-3">100 MEGAS</h5>
+                  <h4 class="text-colored fw-bold mt-4">por apenas R$ 99,90</h4>
+                  <p class="mt-3">****imagens meramente inlustrativas****</p>
+                  <button class="btn btn-primary w-100">Contrate Já</button>
+                </div>  
+            </div>
+           
+
+        </div>
+      </section>
+      <section id="fale-conosco" class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title text-center"><span class="text-colored">FALE CONOSCO</span></h2>
+          </div>
+          <div class="row">
+            <div class="col-md-7 mb-5">
+              <form>
+                <div class="mb-3">
+                  <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                  <input type="text" id="nome" class="form-control" required>
+                  <div class="mb-3">
+                    <label for="email" class="form-label fw-bold text-colored">seu e-mail</label>
+                    <input type="email" id="email" class="form-control" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="telefone" class="form-label fw-bold text-colored">Seu Telefone (opcional)</label>
+                    <input type="tel" id="telefone" class="form-control">
+                  </div>
+                  <div class="mb-3">
+                    <label for="nome" class="form-label fw-bold text-colored">Mande-nos ua Mensagens</label>
+                    <textarea  class="form-control" id="mensagen" ></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary fw-bold">enviar</button>
+                </div>
+              </form>
+            </div>
+            <div class="col-md-5 mt-4">
+              <div class="row">
+                <h3 class="section-title fs-4 text-colored">
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  rede sociais</h3>
+                <ul class="social-link">
+                  <li class="fs-5">
+                    <a href="#">
+                      <i class="bi bi-facebook text-colored"></i>
+                    </a>
+                  </li>
+
+                  <li class="fs-5 ms-1 me-1">
+                    <a href="#">
+                      <i class="bi bi-instagram text-colored"></i>
+                    </a>
+                  </li>
+
+                  <li class="fs-5">
+                    <a href="#">
+                      <i class="bi bi-whatsapp text-colored"></i>
+                    </a>
+                  </li>
+
+                  
+                </ul>
+              </div>
+              <div class="row mt-4">
+                <h3 class="section-title fs-4 text-colored">
+                  <i class="bi bi-cursor-fill"></i>
+                  endereço</h3>
+                <p>rua teste exemplo Nº 100, bairro centro - xique-xique - ba </p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+       
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
